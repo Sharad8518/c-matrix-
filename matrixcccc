@@ -1,0 +1,65 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main(){
+	
+	int p[3][3],a[3][3],v[3][3];
+	int i,j;
+	
+	cout<<"Enter value of  first matrix \n";
+	
+	for(i=0;i<3;i++){
+		
+		for(j=0;j<3;j++){
+			
+			cin>>p[i][j];
+			
+		}
+		
+	}
+	 cout<<"Enter value of second matrix\n";
+	 for(i=0;i<3;i++){
+	 
+	 	for(j=0;j<3;j++){
+	 	
+	 		cin>>a[i][j];	
+	 		
+	 		
+	 			
+	 				}	
+	 	
+	 	
+	 }
+
+	for(i=0;i<3;i++){
+	
+		for(j=0;j<3;j++){
+			
+			
+			
+			v[i][j] = p[i][j]+a[i][j];
+				
+					}	
+		
+	}
+	
+cout<<"sum number of matrix :\n   ";
+
+for(i=0;i<3;i++){
+	
+	
+	for(j=0;j<3;j++){
+		
+		
+		cout<<""<<v[i][j];
+		
+	}
+cout<<endl;	
+	
+}
+	getch();
+	
+	
+	
+	}
+
